@@ -16,7 +16,7 @@ public class BookController {
 		dto.setId(123L);
 		dto.setAuthor("Charles Lim");
 		dto.setIsdn("ISDN: 223333322332211");
-		dto.setBookTitle("Missing Jewels");
+		dto.setBookTitle("Missing Jewels from feature 1");
 		return dto;
 	}
 }
