@@ -14,9 +14,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 @Configuration
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
-
-	@Autowired
-	private UserDetailConfig userDetailsService;
 	
     @Override
     @Bean
